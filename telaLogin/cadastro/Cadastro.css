@@ -7,73 +7,74 @@
 
   body {
     background: rgb(255,230,244);
-    background: radial-gradient(circle, rgba(255,230,244,1) 3%, rgba(250,196,222,1) 17%, rgba(249,173,188,1) 27%, rgba(239,147,147,1) 65%);
+    background: radial-gradient(circle, rgba(255,230,244,1) 3%, rgba(250,196,222,1) 17%, rgb(248, 202, 211) 27%, rgb(221, 136, 176) 65%);
     font-family: 'Roboto', sans-serif;
-  }
+}
 
  .titulocad {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fbfbfb;
-    font-size: 35px;
+    color: #ffffff;
+    font-size: 50px;
     text-transform: uppercase;
-    padding-top: 25px;
+    padding-top: 90px;
 }
 
 .cadastro {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.932);
     border-radius: 30px;
     padding: 20px;
     margin: 70px;
-    margin-top: 40px;
-    margin-left: 330px;
+    margin-top: 80px;
+    margin-left: 650px;
     width: 600px;
-}
-
-.cadastroinput {
-    width: 100%;
-    padding: 20px;
-    margin-top: 10px;
-    border: 1px solid #fde5e5;
-    border-radius: 30px;
+    border: 1px solid rgb(248, 170, 183);
 }
 
 .email{
-    width: 500px;
-    height: 30px;
-    background-color: #f8e7e7;
-    margin: 20px;
-    margin-left: center;
-    border-radius: 10px;
-    border-color: #cd7373;
-    box-shadow: 1px 1px 6px #a30000;
+    width: 70%;
+    height: 1px;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid #db809b;
+    border-radius: 20px;
+    background-color: #ffd3e4;
 }
 
-.textobom{
+.cadtxt{
     position: relative;
-    padding-right: 440px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.cadtxt2{
+    position: relative;
+    padding-right: 250px;
+    margin-top: 20px;
 }
   
 p{
     display: flex;
     align-items: center;
-    color: #ee8383;
-    font-weight: 500;
+    color: #e06f91;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-right: 350px;
+    margin-top: 50px;
+    font-size: large;
  }
 
 .botaologin {
     width: 200px;
     height: 40px;
     margin-left: 340px;
-   color: #c66161;
-   background-color: #fae1e1;
+   color: #ad5670;
+   background-color: #f8d5e3;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: medium;
    border-radius: 30px;
    border-color: #fdbfbf;
 }
