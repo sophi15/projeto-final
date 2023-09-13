@@ -1,12 +1,13 @@
 * {
-    padding: 0%;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     overflow: hidden;
   }
   
   body {
     background: rgb(255,230,244);
-    background: radial-gradient(circle, rgba(255,230,244,1) 3%, rgba(250,196,222,1) 17%, rgb(248, 202, 211) 27%, rgb(221, 136, 176) 65%);
+    background: radial-gradient(circle, rgba(255,230,244,1) 3%, rgba(250,196,222,1) 17%, rgba(249,173,188,1) 27%, rgba(239,147,147,1) 65%);
     font-family: 'Roboto', sans-serif;
   }
   
@@ -15,8 +16,7 @@
     justify-content: center;
     align-items: center;
     color: #ffffff;
-    font-size: 70px;
-    margin-top: 90px;
+    font-size: 55px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
   }
@@ -31,74 +31,91 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #e67070;
-    margin-top: 50px;
+    color: #f68686;
+    margin-top: 25px;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   .login {
-    background-color: rgba(255, 255, 255, 0.884);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
     border-radius: 30px;
-    padding: 40px;
-    margin: auto;
+    padding: 25px;
+    margin: 70px;
     margin-top: 30px;
-    width: 30%;
-    height: 300px;
-}
+    margin-left: 320px;
+    width: 600px;
 
-label {
-  display: block;
-  margin-bottom: 5px;
-  margin-left: 55px;
-  margin-top: 15px;
-  color: #e06f91;
-  font-size: large;
-  font-family: cursive;
-}
-
-input[type="email"],
-input[type="password"] {
-    width: 70%;
-    height: 1px;
-    padding: 15px;
-    margin-left: 55px;
+  }
+  
+  .logininput {
+    width: 100%;
+    padding: 30px;
     margin-top: 10px;
-    border: 1px solid #db809b;
-    border-radius: 20px;
-    background-color: #ffd3e4;
+    background-color: #f8e7e7;
+    border-radius: 30px;
+  }
+
+.email{
+    width: 500px;
+    height: 30px;
+    background-color: #f8e7e7;
+    margin: 20px;
+    margin-left: center;
+    border-radius: 10px;
+    border-color: #cd7373;
+    box-shadow: 1px 1px 6px #a30000;
+}
+  
+p {
+  color: #e38282;
+  font-weight: 500;
+  margin-right: 450px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .botaoentrar{
-  background-color: #fdd7e6;
-  color:#b96969;
+  background-color: #f9e9e9;
+  color:#cd7373;
   font-size: 20px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: uppercase;
-  margin-left: 35%;
-  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-left: 420px;
+  margin-top: 20px;
+  margin-bottom: 15px;
   width: 150px;
-  height: 35px;
-  border-color: #d48dab;
-  border-radius: 20px;
+  height: 30px;
+  border-color: #fabbbb;
+  border-radius: 10px;
+}
+
+a{
+  text-decoration: none;
 }
 
 .botaocadastro {
-  color: rgb(190, 104, 118);
-  margin-left: 20%;
-  margin-top: 50px;
+  color: rgb(206, 113, 129);
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+  margin-top: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: medium;
+  font-size: 14px;
 }
-
 .botao {
-  width: 170px;
-  height: 30px;
-  color: #884e5d;
-  font-size: medium;
-  text-decoration: 1px underline rgb(184, 113, 136);
-  background-color: rgba(255, 255, 255, 0.808);
+  width: 150px;
+  height: 25px;
+  margin-left: 10px;
+  color: #c66161;
+  background-color: #ffe8e8;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border: none;
+  border-radius: 10px;
+  border-color: #ffc3c3;
+
 }
 
